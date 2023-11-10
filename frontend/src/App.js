@@ -12,6 +12,7 @@ function App() {
   useEffect(() => {
     const backendURL = "http://localhost:4000";
 
+    
     // Set the full API URL state, including the endpoint
     const endpoint = '/message';
     const fullURL = `${backendURL}${endpoint}`;
